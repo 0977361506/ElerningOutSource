@@ -23,13 +23,18 @@
                     sh('docker build -f Dockerfile -t dockerdemo .')
                      }
                 }
-          stage('remove docker')
-                      {
-                          steps
-                              {
-                               sh('docker rm  -f dockerdemo')
+          stage('remove docker'){
+                      steps{
+                          script {
+                              try {
+                                   sh('docker rm  -f  dockerdemo ')
                               }
-                      }
+                              catch (Exception e) {
+                                  echo 'Exception occurred: ' + e.toString()
+                                  }
+                              }
+                         }
+                  }
          stage('run in docker')
          {
          steps{
