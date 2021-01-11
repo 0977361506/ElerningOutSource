@@ -104,7 +104,7 @@
 	</div>
 
 	<div class="p-2 mt-3" style="margin-left: 184px;">
-	<a style="color: white;">© Copyright 2020 E-Learning VN POST Designed by IT - VN POST</a>
+	<a style="color: white;">© LEHIEU 2020 E-Learning VN POST Designed by IT - VN POST</a>
 
 	</div>
 	</div>
