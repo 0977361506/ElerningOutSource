@@ -33,7 +33,7 @@
          stage('run in docker')
          {
          steps{
-            sh('docker run -d --name "dockerdemo" --volume /media/data/:/tmp/data-data1/media/data/ -p 8082:8082 dockerdemo:latest')
+            sh('docker run -d --name "dockerdemo" --volume /media/data/:/tmp/data-data1/media/data/ -p 5678:5678 dockerdemo:latest')
           }
          }
 
