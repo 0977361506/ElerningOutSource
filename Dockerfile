@@ -1,4 +1,4 @@
 FROM java:8
 EXPOSE 8082
-ADD /target/eln-frontend-api.war eln-frontend-api.war
-ENTRYPOINT ["java", "-jar", "/eln-frontend-api.war"]
+ADD /target/project_learning-0.0.1-SNAPSHOT.war project_learning-0.0.1-SNAPSHOT.war
+ENTRYPOINT ["java", "-jar", "/project_learning-0.0.1-SNAPSHOT.war"]

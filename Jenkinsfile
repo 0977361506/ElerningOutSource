@@ -33,7 +33,7 @@
          stage('run in docker')
          {
          steps{
-            sh('docker run --name "eln-frontend-api" --volume /media/data/:/tmp/data-data1/media/data/ -p 8082:8082 eln-frontend-api:latest')
+            sh('docker run -d --name "eln-frontend-api" --volume /media/data/:/tmp/data-data1/media/data/ -p 8082:8082 eln-frontend-api:latest')
           }
          }
 
