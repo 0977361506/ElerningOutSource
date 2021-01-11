@@ -14,7 +14,8 @@
 
 
   <main style="background: #EEF1F2;">
-      <tiles:insertAttribute name="body" />
+      <tiles:insertAttribute name="body"/>
+      <tiles:insertAttribute name="newLetter"/>
   </main>
 
 

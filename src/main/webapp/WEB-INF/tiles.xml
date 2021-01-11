@@ -12,6 +12,8 @@
                        value="/WEB-INF/views/user/layout/head.jsp"/>
         <put-attribute name="menu"
                        value="/WEB-INF/views/user/layout/menu.jsp"/>
+        <put-attribute name="newLetter"
+                       value="/WEB-INF/views/user/layout/newLetter.jsp"/>
         <put-attribute name="footer"
                        value="/WEB-INF/views/user/layout/footer.jsp"/>
 
